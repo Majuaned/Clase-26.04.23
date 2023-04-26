@@ -1,0 +1,13 @@
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+
+    <script>
+        var miTensor = tf.tensor([1,2,3,4]);
+        console.log(miTensor);
+
+        miTensor.print();
+        //****************************************** */
+        // en este caso se transforma una matriz de una dimensión en una dimensión de forma 2*2 y sólo se visualizan de forma entera a los elementos
+        var miTensor2 = tf.tensor([1.3,8.2,9.3,4.0], [2,2], "int32");
+        console.log(miTensor2);
+        miTensor2.print();
+    </script>
